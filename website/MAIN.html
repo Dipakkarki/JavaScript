@@ -1,0 +1,199 @@
+<html lang="en">
+<head>
+      <script src="/cdn-cgi/apps/head/6_Nf7JQYjABGnmPPZgdYipdBiD8.js"></script><link rel="stylesheet" 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+          
+      </script>
+ <meta charset="UTF-8">
+    <title>Contact</title>
+   <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<script>
+    function resizeMe(win) {
+      var size = $(window).width();
+      var display = size > 600 ?  'inline-flex' :  'inline-block';
+      $('#flexMe').css({ display: display });
+    }
+    $(window).bind('resize', resizeMe);
+    $(window).bind('load', resizeMe);
+</script>
+
+</head>
+
+
+
+ <! –– SOCIAL MEDIA ICONS STYLE––>
+<style>
+
+
+.btn{
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  background: #f1f1f1;
+  margin: 5px;
+  border-radius: 30%;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+}
+.btn i{
+  line-height: 38px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+.btn:hover i{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #3498db;
+  transform: rotate(45deg);
+  left: -90%;
+  top: 90%;
+}
+.btn:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+@keyframes aaa {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
+  }
+}
+
+    
+.blink{
+    -webkit-animation:blink 1s linear infinite;
+    -moz-animation:blink 1s linear infinite;
+    animation:blink 1s linear infinite;
+    
+}
+@-webkit-keyframes blink{
+    0%{opacity:1;}
+      50%{opacity:0;}
+      100%{opacity:1;}
+}
+@-moz-keyframes blink{
+    0%{opacity:1;}
+      50%{opacity:0;}
+      100%{opacity:1;}
+}
+@keyframes blink{
+    0%{opacity:1;}
+      50%{opacity:0;}
+      100%{opacity:1;}
+}
+</style>
+
+ 
+<! ––SOCIAL MEDIA BODY STYLE––>
+<body style= "background: url(https://media.giphy.com/media/Y0cKnGMCBTNTi/giphy.gif); background-size: 50% 40%">
+    
+    <div class="container pt-2" id="flexMe" style="display: flex; width: 100%;>
+      <div class = "">
+        <a class="btn" href="https://www.facebook.com/dipak.anubhab" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+        <a class="btn" href="https://www.instagram.com/machine_000_/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a class="btn" href="https://twitter.com/anubhabkarki1" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+     
+      <a class="btn" href= "https://github.com/Dipakkarki"target"_blank">
+        <i class="fab fa-github"></i>
+      </a>
+        <a class="btn"href="https://www.linkedin.com/in/dipak-anubhab/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </header> 
+      
+      <! –– Bars––>
+
+      <nav class ="menu">
+<p style="background-color:GRAY;"align="center">
+          <a href="HOME.html">Home</a> 
+		&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+          <a href="about.html">About</a>
+		&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+              <a id ="acolor"href="contact.html">Contact</a>
+		&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
+</p>
+      </nav>
+
+  <! –– SLIDESHOW––>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<div class="w3-content w3-display-container"><p align="center">
+  <img class="mySlides" src="AA.JPG" style="width:75%">
+  <img class="mySlides" src="2.JPG" style="width:75%">
+  <img class="mySlides" src="3.JPG" style="width:75%">
+  <img class="mySlides" src="4.JPG" style="width:75%">
+  <img class="mySlides" src="5.JPG" style="width:75%">
+<img class="mySlides" src="6.JPG" style="width:75%">
+<img class="mySlides" src="7.JPG" style="width:75%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</p>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+
+    <! –– FOOTER––>
+             <footer>
+<p style="background-color:Tomato;" align="center">
+                 &copy; 2057 DIPAK.INC  &nbsp; &nbsp; <span class="separator">|</span> &nbsp; &nbsp; Designed by <a href="https://www.facebook.com/dipak.anubhab" 
+target ="_blank">DIPAK KARKI</a></p>
+             
+</footer>
+</script>
+</body>
+</html>
